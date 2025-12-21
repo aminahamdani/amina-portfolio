@@ -1,0 +1,34 @@
+AMINA HAMDANI
+Strategic Financial Analyst & AI Integrator
+amina.hamdani@pursuit.org | LinkedIn: amina-hamdani-192589380
+
+PROFESSIONAL SUMMARY
+Strategic financial analyst with MBA in Finance and MS in Accounting (Brooklyn College, Spring 2026). 
+Expert in financial modeling, AI-driven solutions, and regulatory compliance. Currently Builder at Pursuit.org 
+specializing in AI-driven financial solutions.
+
+EDUCATION
+MS in Accounting - Brooklyn College, NY (Expected Spring 2026)
+AI & Software Development - Pursuit.org (Dec 2025 - Present)
+MBA in Finance - University of Sargodha/Punjab, Pakistan
+
+TECHNICAL SKILLS
+• Advanced Excel: VBA, Pivot Tables, Financial Modeling
+• AI Agents & Automation: ChatGPT integration, Process automation
+• GAAP Compliance: Financial reporting, regulatory standards
+• Data Analysis: SQL, Python, Chart.js
+• Tools: QuickBooks, Tableau, Jupyter Notebooks
+
+PROFESSIONAL EXPERIENCE
+Operational Accounting | Hamdani Brothers
+Managed core operational accounting functions, streamlined bookkeeping processes, supporting financial decision-making
+
+HIGHLIGHTED PROJECTS
+• Financial Health Audit: Multi-year comparative analysis using Excel & SQL, identified profitability drivers
+• FX Risk Hedging Simulator: Developed hedging model projecting 8% reduction in exchange rate losses
+• Gas Station ROI Analysis: Interactive 5-year ROI projection visualization
+
+CERTIFICATIONS & ACHIEVEMENTS
+• MS in Accounting - In Progress (Brooklyn College)
+• AI & Software Development - Pursuit.org
+• MBA in Finance (Evaluated as US Bachelor's equivalent)

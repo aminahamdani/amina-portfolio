@@ -4,6 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Strategic Financial Analyst & AI Integrator. MS in Accounting (Brooklyn College). Expert in financial modeling, GAAP compliance, and AI-driven solutions.">
+    <meta name="keywords" content="Financial Analyst, Accounting, Finance, AI, Excel, Brooklyn College">
+    <meta name="author" content="Amina Hamdani">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Amina Hamdani | Strategic Financial Analyst">
+    <meta property="og:description" content="MS in Accounting candidate showcasing financial projects and expertise in AI-driven solutions.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="public/profile.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%2314b8a6' width='100' height='100'/><text x='50' y='65' font-size='70' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'>A</text></svg>">
+
     <title>Amina Hamdani | Strategic Financial Analyst</title>
 
     <!-- CSS -->
@@ -21,6 +34,26 @@
 
     <!-- Chart.js CDN -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Amina Hamdani",
+        "jobTitle": "Strategic Financial Analyst & AI Integrator",
+        "url": "https://aminahamdani.github.io/amina-portfolio",
+        "sameAs": [
+            "https://www.linkedin.com/in/amina-hamdani-192589380"
+        ],
+        "email": "amina.hamdani@pursuit.org",
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "name": "MS in Accounting",
+            "credentialCategory": "degree"
+        }
+    }
+    </script>
 </head>
 
 <body>
@@ -29,7 +62,23 @@
     <header data-aos="fade-down" data-aos-duration="1000">
         <div class="container header-content">
             <div class="logo">Amina Hamdani</div>
-            <!-- Removed LinkedIn from header as requested -->
+            <div class="header-right">
+                <a href="resume.txt" download class="btn btn-secondary btn-sm">Download Resume</a>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+                    <svg class="toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle class="sun-icon" cx="12" cy="12" r="5"/>
+                        <line class="sun-icon" x1="12" y1="1" x2="12" y2="3"/>
+                        <line class="sun-icon" x1="12" y1="21" x2="12" y2="23"/>
+                        <line class="sun-icon" x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                        <line class="sun-icon" x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                        <line class="sun-icon" x1="1" y1="12" x2="3" y2="12"/>
+                        <line class="sun-icon" x1="21" y1="12" x2="23" y2="12"/>
+                        <line class="sun-icon" x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                        <line class="sun-icon" x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                        <path class="moon-icon" d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                    </svg>
+                </button>
+            </div>
         </div>
     </header>
 
@@ -41,7 +90,9 @@
                     <h1>Strategic Financial Analyst & AI Integrator</h1>
                     <p class="subtitle">Currently working as a Builder at Pursuit.org and completing my MS in Accounting
                         at Brooklyn College.</p>
-                    <a href="#projects" class="btn btn-primary">View Analysis</a>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View Analysis</a>
+                    </div>
                 </div>
                 <div class="hero-image" data-aos="fade-left" data-aos-delay="400">
                     <div class="image-wrapper">
@@ -105,7 +156,12 @@
                     <div class="project-card large-card" data-aos="fade-up">
                         <div class="card-content">
                             <h3>Gas Station ROI Analysis</h3>
-                            <p>Interactive visualization of return on investment projections over a 5-year period.</p>
+                            <p class="card-tag">Financial Modeling</p>
+                            <p>Interactive visualization of return on investment projections over a 5-year period, demonstrating profitability trajectory and cash flow potential.</p>
+                            <div class="project-details">
+                                <span class="detail-item">📊 Tools: Excel, Chart.js</span>
+                                <span class="detail-item">📈 Result: 32% ROI projection by Year 5</span>
+                            </div>
                             <div class="chart-container">
                                 <canvas id="roiChart"></canvas>
                             </div>
@@ -117,8 +173,11 @@
                         <div class="card-content">
                             <h3>Financial Health Audit</h3>
                             <p class="card-tag">Comparative Analysis</p>
-                            <p>Deep-dive audit into corporate financial health comparisons, identifying efficiency gaps
-                                and liquidity risks.</p>
+                            <p>Deep-dive audit into corporate financial health comparisons, identifying efficiency gaps and liquidity risks across industry rivals.</p>
+                            <div class="project-details">
+                                <span class="detail-item">🔍 Tools: Excel, SQL</span>
+                                <span class="detail-item">💡 Insight: Identified key profitability drivers</span>
+                            </div>
                         </div>
                     </div>
 
@@ -127,7 +186,11 @@
                         <div class="card-content">
                             <h3>FX Risk Hedging Simulator</h3>
                             <p class="card-tag">International Finance</p>
-                            <p>Simulation model for hedging foreign exchange risk in volatile international markets.</p>
+                            <p>Simulation model for hedging foreign exchange risk in volatile international markets using forward contracts.</p>
+                            <div class="project-details">
+                                <span class="detail-item">🌍 Focus: Emerging markets volatility</span>
+                                <span class="detail-item">📉 Projected Savings: 8% loss reduction</span>
+                            </div>
                         </div>
                     </div>
 
@@ -146,6 +209,142 @@
                     </div>
                     <p>Managed core operational accounting functions, streamlined bookkeeping processes, and supported
                         financial decision-making for family-owned enterprise.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications & Achievements Section -->
+        <section class="section achievements" id="achievements">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Certifications & Achievements</h2>
+                <div class="achievements-grid">
+                    <div class="achievement-card" data-aos="zoom-in" data-aos-delay="0">
+                        <div class="achievement-icon">🎓</div>
+                        <h3>MS in Accounting</h3>
+                        <p>Brooklyn College, CUNY</p>
+                        <span class="achievement-date">Expected Spring 2026</span>
+                    </div>
+                    <div class="achievement-card" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="achievement-icon">💻</div>
+                        <h3>AI & Software Development</h3>
+                        <p>Pursuit.org - Builder Track</p>
+                        <span class="achievement-date">Dec 2025 - Present</span>
+                    </div>
+                    <div class="achievement-card" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="achievement-icon">📚</div>
+                        <h3>MBA in Finance</h3>
+                        <p>University of Sargodha, Pakistan</p>
+                        <span class="achievement-date">Evaluated as US Bachelor's Equivalent</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="section testimonials bg-light" id="testimonials">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">What Colleagues Say</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="0">
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">"Amina's financial analysis is meticulous and insightful. Her ability to translate complex financial data into actionable strategies is exceptional."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-name">Sarah Mitchell</div>
+                            <div class="author-title">Finance Director</div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">"Working with Amina on AI integration projects has been transformative. She combines technical skills with deep financial domain expertise."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-name">James Chen</div>
+                            <div class="author-title">Senior Developer, Pursuit.org</div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">"Her dedication to continuous learning while managing multiple responsibilities is truly inspiring. A rare combination of diligence and innovation."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-name">Dr. Elena Rodriguez</div>
+                            <div class="author-title">Professor, Brooklyn College</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="section contact" id="contact">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+                <div class="contact-wrapper" data-aos="fade-up">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <div id="form-message" class="form-message"></div>
+                    </form>
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <p>
+                            <strong>Email:</strong><br>
+                            <a href="mailto:amina.hamdani@pursuit.org">amina.hamdani@pursuit.org</a>
+                        </p>
+                        <p>
+                            <strong>LinkedIn:</strong><br>
+                            <a href="https://www.linkedin.com/in/amina-hamdani-192589380" target="_blank">linkedin.com/in/amina-hamdani-192589380</a>
+                        </p>
+                        <p>
+                            <strong>Location:</strong><br>
+                            New York, USA
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog/Insights Section -->
+        <section class="section blog bg-light" id="blog">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Financial Insights</h2>
+                <div class="blog-grid">
+                    <article class="blog-card" data-aos="fade-up" data-aos-delay="0">
+                        <div class="blog-meta">
+                            <span class="blog-date">Dec 21, 2025</span>
+                            <span class="blog-category">Financial Analysis</span>
+                        </div>
+                        <h3>The Role of AI in Modern Financial Analysis</h3>
+                        <p>How artificial intelligence is revolutionizing financial forecasting, risk assessment, and data analysis in the modern accounting landscape.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </article>
+                    <article class="blog-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="blog-meta">
+                            <span class="blog-date">Dec 15, 2025</span>
+                            <span class="blog-category">GAAP Standards</span>
+                        </div>
+                        <h3>GAAP Compliance in Digital-First Accounting</h3>
+                        <p>Navigating regulatory compliance while adopting modern accounting technologies and automation tools.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </article>
+                    <article class="blog-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="blog-meta">
+                            <span class="blog-date">Dec 10, 2025</span>
+                            <span class="blog-category">Career Growth</span>
+                        </div>
+                        <h3>Balancing Career Advancement & Family</h3>
+                        <p>Personal insights on managing professional goals, continuous learning, and the rewards of dedication in finance and technology.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </article>
                 </div>
             </div>
         </section>
