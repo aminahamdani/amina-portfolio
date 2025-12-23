@@ -63,6 +63,7 @@
         <div class="container header-content">
             <div class="logo">Amina Hamdani</div>
             <div class="header-right">
+                <a href="#contact" class="btn btn-outline btn-sm">Contact</a>
                 <a href="resume.txt" download class="btn btn-secondary btn-sm">Download Resume</a>
                 <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
                     <svg class="toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -277,38 +278,20 @@
         </section>
 
         <!-- Contact Form Section -->
-        <section class="section contact" id="contact">
+        <section class="section contact bg-light" id="contact" data-aos="fade-up">
             <div class="container">
-                <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
-                <div class="contact-wrapper" data-aos="fade-up">
-                    <form id="contact-form" class="contact-form">
-                        <div class="form-group">
-                            <input type="text" id="name" name="name" placeholder="Your Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" id="email" name="email" placeholder="Your Email" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                        <div id="form-message" class="form-message"></div>
-                    </form>
-                    <div class="contact-info">
-                        <h3>Contact Information</h3>
-                        <p>
-                            <strong>Email:</strong><br>
-                            <a href="mailto:amina.hamdani@pursuit.org">amina.hamdani@pursuit.org</a>
-                        </p>
-                        <p>
-                            <strong>LinkedIn:</strong><br>
-                            <a href="https://www.linkedin.com/in/amina-hamdani-192589380" target="_blank">linkedin.com/in/amina-hamdani-192589380</a>
-                        </p>
-                        <p>
-                            <strong>Location:</strong><br>
-                            New York, USA
-                        </p>
-                    </div>
+                <h2 class="section-title" data-aos="fade-up">Contact Me</h2>
+                <div class="form-wrapper" data-aos="fade-up">
+                    <iframe 
+                        id="google-form"
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSeaFFaTPX1tuM9RZgeTwS6sCFCxHxcRLXFxKYU5lqjY0PyiSA/viewform?embedded=true"
+                        width="100%" 
+                        height="900" 
+                        frameborder="0" 
+                        marginheight="0" 
+                        marginwidth="0">
+                        Loading…
+                    </iframe>
                 </div>
             </div>
         </section>
