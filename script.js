@@ -204,3 +204,16 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 });
 
+// ============================================
+// Google Form Success Message Handler
+// ============================================
+const iframe = document.getElementById('google-form');
+if (iframe) {
+    iframe.addEventListener('load', () => {
+        const successBox = document.getElementById('form-success');
+        if (iframe.src.includes("formResponse")) {
+            successBox.style.display = "block";
+        }
+    });
+}
+
