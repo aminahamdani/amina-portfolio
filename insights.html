@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Financial Insights - Amina Hamdani's analysis of AI in auditing, data analytics, and international risk.">
+    <meta name="keywords" content="Financial Analysis, AI, GAAP, Risk Management, Auditing">
+    <meta name="author" content="Amina Hamdani">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Financial Insights | Amina Hamdani">
+    <meta property="og:description" content="In-depth financial analysis covering AI integration, strategic analysis, and international risk management.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="public/profile.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%2314b8a6' width='100' height='100'/><text x='50' y='65' font-size='70' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'>A</text></svg>">
+
+    <title>Financial Insights | Amina Hamdani</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- KaTeX for Math Formulas -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"
+        onload="renderMathInElement(document.body);"></script>
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "author": {
+            "@type": "Person",
+            "name": "Amina Hamdani"
+        },
+        "publisher": {
+            "@type": "Person",
+            "name": "Amina Hamdani"
+        }
+    }
+    </script>
+</head>
+
+<body>
+
+    <!-- Navigation / Header -->
+    <header data-aos="fade-down" data-aos-duration="1000">
+        <div class="container header-content">
+            <div class="logo"><a href="index.html" style="color: inherit; text-decoration: none;">Amina Hamdani</a></div>
+            <div class="header-right">
+                <a href="index.html#contact" class="btn btn-outline btn-sm">Contact</a>
+                <a href="Amina_Hamdani_Resume.pdf" download class="btn btn-secondary btn-sm">Download Resume</a>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+                    <svg class="toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle class="sun-icon" cx="12" cy="12" r="5"/>
+                        <line class="sun-icon" x1="12" y1="1" x2="12" y2="3"/>
+                        <line class="sun-icon" x1="12" y1="21" x2="12" y2="23"/>
+                        <line class="sun-icon" x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                        <line class="sun-icon" x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                        <line class="sun-icon" x1="1" y1="12" x2="3" y2="12"/>
+                        <line class="sun-icon" x1="21" y1="12" x2="23" y2="12"/>
+                        <line class="sun-icon" x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                        <line class="sun-icon" x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                        <path class="moon-icon" d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Article 1: The Algorithmic Auditor -->
+        <section class="section insights-article bg-light" id="algorithmic-auditor">
+            <div class="container">
+                <div class="article-content" data-aos="fade-up">
+                    <div class="article-meta">
+                        <span class="article-date">Dec 23, 2025</span>
+                        <span class="article-category">AI Integration</span>
+                    </div>
+                    <h1>The Algorithmic Auditor: Transforming Real-Time GAAP Oversight</h1>
+                    
+                    <p>The auditing profession stands at the precipice of transformation. For decades, auditors have relied on sampling methodologies and periodic reviews to ensure financial compliance. Today, artificial intelligence agents are enabling a paradigm shift toward continuous, real-time GAAP oversight that fundamentally reimagines how organizations maintain regulatory compliance.</p>
+                    
+                    <h2>The Legacy Challenge</h2>
+                    <p>Traditional auditing processes are inherently reactive. Companies conduct quarterly or annual audits, identifying discrepancies after the fact. This temporal gap creates risk—material errors can persist undetected for months, regulatory violations can compound interest, and decision-makers operate on incomplete or stale financial data.</p>
+                    
+                    <h2>AI Agents in Auditing</h2>
+                    <p>At Pursuit, we're developing AI agents designed to monitor financial transactions in real-time. These intelligent systems analyze ledger entries, validate accounting treatments against GAAP standards, flag anomalies, and generate audit trails with minimal latency. The technical implementation involves:</p>
+                    <ul style="margin-left: 2rem; margin-top: 1rem;">
+                        <li><strong>Pattern Recognition:</strong> Machine learning models trained on historical audit findings identify high-risk transaction types and suspicious patterns.</li>
+                        <li><strong>Rule Engine Integration:</strong> Deterministic logic layers enforce GAAP requirements, ensuring transactions comply with accounting standards before they're recorded.</li>
+                        <li><strong>Continuous Validation:</strong> Unlike batch processes that run nightly, these agents operate asynchronously, validating transactions as they occur.</li>
+                        <li><strong>Intelligent Alerting:</strong> Rather than flooding auditors with false positives, AI agents prioritize findings by risk materiality and impact.</li>
+                    </ul>
+                    
+                    <h2>The Practical Impact</h2>
+                    <p>Organizations implementing AI-driven audit agents report reduced audit timelines, fewer control exceptions, and improved regulatory responsiveness. The financial controller gains visibility into their compliance posture in near real-time, enabling proactive remediation rather than reactive problem-solving.</p>
+                    
+                    <p>As AI capabilities mature, the role of human auditors evolves from transaction validators to strategic advisors—focusing on complex judgment calls, emerging risks, and governance rather than routine compliance verification.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Article 2: Signals in the Noise -->
+        <section class="section insights-article" id="signals-in-noise">
+            <div class="container">
+                <div class="article-content" data-aos="fade-up">
+                    <div class="article-meta">
+                        <span class="article-date">Dec 22, 2025</span>
+                        <span class="article-category">Strategic Analysis</span>
+                    </div>
+                    <h1>Signals in the Noise: Using Comparative Health Audits to Identify Financial Risk</h1>
+                    
+                    <p>Financial health metrics are often obscured by industry variance, temporal anomalies, and the noise of operational fluctuations. Extracting meaningful insights requires a comparative framework—analyzing financial signals not in isolation, but against peer performance, historical baselines, and strategic benchmarks.</p>
+                    
+                    <h2>The Comparative Health Audit Framework</h2>
+                    <p>A comprehensive health audit compares organizations across key financial dimensions:</p>
+                    <ul style="margin-left: 2rem; margin-top: 1rem;">
+                        <li><strong>Liquidity Metrics:</strong> Current ratio, quick ratio, and cash conversion cycles reveal an organization's ability to meet short-term obligations. Comparative analysis identifies outliers that may signal operational stress or superior working capital management.</li>
+                        <li><strong>Efficiency Ratios:</strong> Asset turnover, inventory days, and receivables collection periods benchmark operational effectiveness. Degradation in these metrics often precedes profitability declines.</li>
+                        <li><strong>Solvency Measures:</strong> Debt-to-equity ratios and interest coverage ratios contextualize leverage decisions. Peer comparison reveals whether capital structure is optimal or excessive.</li>
+                        <li><strong>Profitability Analysis:</strong> Margin evolution (gross, operating, net) analyzed against competitor trends identifies pricing power, cost management capability, and fundamental business viability.</li>
+                    </ul>
+                    
+                    <h2>Identifying Liquidity Risks</h2>
+                    <p>Liquidity crises often develop silently. A business generating healthy profits can still face cash shortfalls if working capital management deteriorates. Comparative audits identify organizations whose receivables collection periods are extending, whose inventory turnover is slowing, or whose cash conversion cycles are lengthening—all early warning signals of potential distress.</p>
+                    
+                    <h2>Efficiency Gaps as Strategic Opportunities</h2>
+                    <p>When one organization in a peer group significantly underperforms on efficiency metrics, the gap represents either a strategic disadvantage or an operational improvement opportunity. Analyzing the sources of efficiency variance—whether rooted in technology adoption, process optimization, or scale advantages—informs targeted improvement initiatives.</p>
+                    
+                    <p>The skill lies not merely in calculating ratios, but in interpreting them within context: understanding whether variance reflects deliberate strategic choices or addressable operational deficiencies.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Article 3: The Digital Shield -->
+        <section class="section insights-article bg-light" id="digital-shield">
+            <div class="container">
+                <div class="article-content" data-aos="fade-up">
+                    <div class="article-meta">
+                        <span class="article-date">Dec 21, 2025</span>
+                        <span class="article-category">International Risk</span>
+                    </div>
+                    <h1>The Digital Shield: FX Risk Simulators and Capital Protection in Emerging Markets</h1>
+                    
+                    <p>Organizations operating in emerging markets face currency volatility that can erase profitability overnight. A 15% currency devaluation can transform a profitable operation into a loss-making venture for companies generating revenue in local currency but incurring costs in developed-market currencies. Managing this exposure requires sophisticated hedging strategies—and the analytical tools to model their effectiveness.</p>
+                    
+                    <h2>Understanding FX Risk</h2>
+                    <p>Foreign exchange risk manifests across multiple dimensions:</p>
+                    <ul style="margin-left: 2rem; margin-top: 1rem;">
+                        <li><strong>Transaction Risk:</strong> Exposure from committed cash flows denominated in foreign currency.</li>
+                        <li><strong>Translation Risk:</strong> Accounting exposure when consolidating foreign subsidiary financial statements.</li>
+                        <li><strong>Economic Risk:</strong> Long-term exposure from how currency movements affect competitive positioning and future cash flows.</li>
+                    </ul>
+                    
+                    <h2>FX Risk Simulators in Practice</h2>
+                    <p>Modern FX risk simulators employ Monte Carlo methods to stress-test hedging strategies across thousands of currency scenarios. Rather than assuming linear currency movements, these tools model the complex, non-linear dynamics of currency markets—including correlation structures, volatility clustering, and tail-risk events.</p>
+                    
+                    <h2>Interest Rate Parity and Forward Pricing</h2>
+                    <p>At the foundation of hedging strategy lies Interest Rate Parity (IRP)—the economic principle that forward exchange rates reflect interest rate differentials between two currencies. The IRP formula is:</p>
+                    
+                    <div style="margin: 2rem 0; padding: 2rem; background: white; border-radius: 8px; text-align: center;">
+                        $$F = S \times \frac{1 + r_d}{1 + r_f}$$
+                    </div>
+                    
+                    <p>Where:</p>
+                    <ul style="margin-left: 2rem; margin-top: 1rem;">
+                        <li><strong>F</strong> = Forward exchange rate (domestic currency per unit of foreign currency)</li>
+                        <li><strong>S</strong> = Spot exchange rate (current market rate)</li>
+                        <li><strong>$r_d$</strong> = Domestic interest rate</li>
+                        <li><strong>$r_f$</strong> = Foreign interest rate</li>
+                    </ul>
+                    
+                    <p>If domestic interest rates exceed foreign rates (as often occurs in emerging markets), the forward rate will be at a discount—meaning the foreign currency is expected to depreciate. This relationship is not merely theoretical; it's the pricing mechanism for currency forwards and the foundation of rational hedging decisions.</p>
+                    
+                    <h2>Strategic Hedging Implications</h2>
+                    <p>Organizations cannot eliminate FX risk, but they can optimize its management through strategic decisions about which exposures to hedge, which instruments to employ, and how to balance hedging costs against protection benefits. FX simulators model expected value of alternative hedging strategies under simulated currency evolution paths, enabling data-driven decision-making.</p>
+                    
+                    <p>In emerging markets where currency volatility can be severe, this discipline transforms from an optional refinement to a core competency—the difference between building sustainable international operations and suffering catastrophic value destruction from currency movements beyond management's control.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Back to Home -->
+        <section class="section" style="text-align: center; padding: 3rem 0;">
+            <div class="container">
+                <a href="index.html" class="btn btn-primary">← Back to Home</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="contact-links" style="flex-direction: column; gap: 0.5rem; display: flex;">
+                <a href="mailto:amina.hamdani@pursuit.org" class="footer-link">amina.hamdani@pursuit.org</a>
+                <a href="https://www.linkedin.com/in/amina-hamdani-192589380" target="_blank"
+                    class="footer-link">https://www.linkedin.com/in/amina-hamdani-192589380</a>
+                <a href="Amina_Hamdani_Resume.pdf" download="Amina_Hamdani_Resume.pdf" class="footer-link">Download Resume (PDF)</a>
+            </div>
+            <p class="copyright">&copy; 2025 Amina Hamdani. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts: AOS Library & Custom Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
