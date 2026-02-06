@@ -1,6 +1,9 @@
 node_modules/
+
+# Environment variables - NEVER commit files with real credentials
 .env
 .env.local
 .env.*.local
+
 .DS_Store
 *.log
