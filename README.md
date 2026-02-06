@@ -2,6 +2,8 @@
 **MS in Accounting Candidate (Brooklyn College, Spring 2026)** | **MBA in Finance**
 *Currently a Builder at Pursuit.org, transforming financial workflows through AI and automation.*
 
+🌐 **Live Portfolio:** [https://aminahamdani.github.io/amina-portfolio/](https://aminahamdani.github.io/amina-portfolio/)
+
 ---
 
 ## 🚀 Professional Profile
@@ -71,9 +73,101 @@ My professional journey is currently focused on the strategic integration of eme
 
 ---
 
-## 📝 Recent Portfolio Updates (January 2026)
+---
+
+## 🚀 Portfolio Website
+
+This repository contains my professional portfolio website built with **React**, **TypeScript**, and **Tailwind CSS**. The portfolio showcases my projects, skills, and professional background.
+
+### Tech Stack
+* **Frontend:** React 18, TypeScript, Tailwind CSS
+* **Build Tool:** Vite
+* **Deployment:** GitHub Pages
+* **Contact Form:** EmailJS (configured via environment variables)
+
+### Features
+* ✨ Modern, responsive design
+* 🌙 Dark mode toggle
+* 📧 Working contact form
+* 📱 Mobile-friendly interface
+* 🎨 Smooth animations and transitions
+* 🔒 Secure credential management (environment variables)
+
+### Local Development
+
+1. **Install dependencies:**
+   ```bash
+   cd "Update portfolio webpage"
+   npm install
+   ```
+
+2. **Set up environment variables:**
+   ```bash
+   # Copy the example file
+   cp .env.example .env
+   
+   # Edit .env and add your EmailJS credentials:
+   # VITE_EMAILJS_SERVICE_ID=your_service_id
+   # VITE_EMAILJS_TEMPLATE_ID=your_template_id
+   # VITE_EMAILJS_PUBLIC_KEY=your_public_key
+   ```
+
+3. **Start development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+### Deployment
+
+The portfolio is automatically deployed to GitHub Pages. To update:
+
+1. Build the React app:
+   ```bash
+   cd "Update portfolio webpage"
+   npm run build
+   ```
+
+2. Copy built files to repository root:
+   ```bash
+   cd ..
+   Copy-Item -Path "Update portfolio webpage\dist\*" -Destination "." -Recurse -Force
+   ```
+
+3. Commit and push:
+   ```bash
+   git add .
+   git commit -m "Update portfolio"
+   git push origin master
+   ```
+
+Or use the automated deployment script:
+```powershell
+.\deploy-portfolio.ps1
+```
+
+See `QUICK_START.md` for detailed deployment instructions.
+
+### Security
+
+* Environment variables (`.env`) are excluded from version control
+* Only `.env.example` (with placeholders) is committed
+* EmailJS credentials are stored securely in local `.env` file
+* See `EMAIL_SETUP_INSTRUCTIONS.md` for contact form setup
+
+---
+
+## 📝 Recent Portfolio Updates (February 2026)
+* ✅ Migrated to React-based portfolio with modern UI
+* ✅ Implemented dark mode toggle
+* ✅ Added working contact form with EmailJS integration
+* ✅ Secured API credentials using environment variables
+* ✅ Deployed to GitHub Pages with proper base path configuration
+* ✅ Enhanced responsive design and user experience
 * ✅ Updated "My Story" section with professional tone emphasizing MS in Accounting and technical integration
-* ✅ Restructured projects section with 6 featured professional projects
-* ✅ Removed redundant "Live Links" section for cleaner portfolio flow
+* ✅ Restructured projects section with featured professional projects
 * ✅ Enhanced focus on AI-driven financial solutions and automation
-* ✅ Maintained clean, responsive design with AOS animations
