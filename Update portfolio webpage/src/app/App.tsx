@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 import { ImageWithFallback } from './components/figma/ImageWithFallback';
 import emailjs from '@emailjs/browser';
-import rentVerifyThumbnail from 'figma:asset/a5f99000439d057fa9eb3fb1acd517994121ecf1.png';
-import monthEndThumbnail from 'figma:asset/31137e81e88079f4849420b44c71c20af6b57cbe.png';
-import unitConverterThumbnail from 'figma:asset/351dadb03868f677838989d82a628876c92a12df.png';
+import rentVerifyThumbnail from '../assets/a5f99000439d057fa9eb3fb1acd517994121ecf1.png';
+import monthEndThumbnail from '../assets/31137e81e88079f4849420b44c71c20af6b57cbe.png';
+import unitConverterThumbnail from '../assets/351dadb03868f677838989d82a628876c92a12df.png';
 
 export default function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
