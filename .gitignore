@@ -1,4 +1,6 @@
 node_modules/
+dist/
+package-lock.json
 
 # Environment variables - NEVER commit files with real credentials
 .env
