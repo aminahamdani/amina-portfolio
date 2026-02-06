@@ -50,24 +50,26 @@ This message was sent via your portfolio contact form.
 2. Find your **Public Key** (looks like: `user_AbC123XyZ`)
 3. Copy it
 
-## Step 5: Update Your Code
+## Step 5: Add Your Credentials via Environment Variables
 
-Open `/src/app/App.tsx` and find this line (around line 49):
+**Do not put EmailJS credentials in your source code.** Use a local `.env` file so they stay out of version control.
 
-```javascript
-emailjs.send('service_5q5q5q5', 'template_5q5q5q5', formData, 'user_5q5q5q5')
-```
+1. In the project root (`Update portfolio webpage/`), copy the example env file:
+   ```bash
+   copy .env.example .env
+   ```
+   (On Mac/Linux: `cp .env.example .env`)
 
-Replace the placeholder IDs with your actual IDs:
+2. Open `.env` and replace the placeholders with your actual EmailJS values:
+   ```
+   VITE_EMAILJS_SERVICE_ID=service_xyz123
+   VITE_EMAILJS_TEMPLATE_ID=template_xyz5678
+   VITE_EMAILJS_PUBLIC_KEY=user_AbC123XyZ
+   ```
 
-```javascript
-emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', formData, 'YOUR_PUBLIC_KEY')
-```
+3. Save the file. The app reads these at build time. Restart the dev server if it’s already running.
 
-**Example:**
-```javascript
-emailjs.send('service_abc1234', 'template_xyz5678', formData, 'user_AbC123XyZ')
-```
+Your `.env` file is listed in `.gitignore` and will not be committed. This keeps your account safe and avoids rate-limit abuse or spam from exposed keys.
 
 ## ✅ That's It!
 
