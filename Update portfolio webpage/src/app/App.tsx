@@ -244,10 +244,13 @@ export default function App() {
           <h2 className="text-4xl font-serif font-bold text-center mb-12">My Story</h2>
           <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
             <p>
-              As an <strong>MS in Accounting student at Brooklyn College</strong>, I am dedicated to bridging the gap between traditional financial management and modern technological innovation. With an MBA in Finance and over a decade of experience in operational accounting at Hamdani Brothers, I have established a deep expertise in GAAP compliance, financial reporting, and strategic cost control.
+              My academic journey began with an MBA in Finance from an international university, where I built a strong foundation in financial management, corporate strategy, and global business operations. That experience shaped how I think about numbers — not just as figures on a report, but as the language of organizational decision-making.
             </p>
             <p>
-              My professional journey is currently focused on the strategic integration of emerging technologies into the financial sector. Through my intensive training as a Builder at Pursuit, I am gaining the technical skills required to transform legacy financial workflows into automated, high-precision systems. I am committed to leveraging AI and data analytics to provide the strategic insights necessary for modern, efficient financial decision-making.
+              Today, I am deepening that foundation through an MS in Accounting at Brooklyn College, where my coursework spans auditing, accounting theory, and econometrics. Alongside my studies, I balance a part-time administrative role that keeps me grounded in the day-to-day realities of workplace operations — reinforcing the practical side of everything I study. I also completed the Pursuit Builder program, where I gained hands-on exposure to technology tools shaping the future of finance.
+            </p>
+            <p>
+              My goal is clear: to earn my CPA license and become a licensed accounting professional equipped with both rigorous academic training and real-world experience. I am committed to bringing precision, integrity, and a global perspective to every financial challenge I take on.
             </p>
           </div>
         </div>
