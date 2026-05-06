@@ -175,7 +175,7 @@ export default function App() {
             <a href="#contact" className="px-4 py-2 text-sm font-semibold border-2 border-black hover:bg-black hover:text-white transition-all rounded-lg">
               Contact
             </a>
-            <a href="/Resume For Portfolio.pdf" download className="px-4 py-2 text-sm font-semibold bg-black text-white hover:bg-gray-800 transition-all rounded-lg">
+            <a href="/amina-portfolio/Amina_Hamdani_Resume.pdf" download className="px-4 py-2 text-sm font-semibold bg-black text-white hover:bg-gray-800 transition-all rounded-lg">
               Download Resume
             </a>
             <button 
@@ -220,7 +220,7 @@ export default function App() {
                 <a href="#projects" className="px-8 py-4 bg-black text-white rounded-lg hover:bg-gray-800 transition-all font-semibold">
                   View My Work
                 </a>
-                <a href="/Resume For Portfolio.pdf" download className="px-8 py-4 border-2 border-black rounded-lg hover:bg-black hover:text-white transition-all font-semibold">
+                <a href="/amina-portfolio/Amina_Hamdani_Resume.pdf" download className="px-8 py-4 border-2 border-black rounded-lg hover:bg-black hover:text-white transition-all font-semibold">
                   Download Resume
                 </a>
               </div>
@@ -334,34 +334,60 @@ export default function App() {
       <section className="py-20 px-6">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl font-serif font-bold text-center mb-12">Professional Foundation</h2>
-          <div className="bg-white p-8 rounded-xl shadow-md border-l-4 border-black">
-            <div className="flex justify-between items-start mb-4">
-              <h3 className="text-2xl font-bold">Accountant</h3>
-              <span className="text-lg font-bold">Hamdani Brothers</span>
+          <div className="space-y-8">
+            {/* New Experience */}
+            <div className="bg-white p-8 rounded-xl shadow-md border-l-4 border-black">
+              <div className="flex justify-between items-start mb-4">
+                <h3 className="text-2xl font-bold">Administrative Assistant (Federal Work-Study)</h3>
+                <span className="text-lg font-bold">Brooklyn College – Finance Dept</span>
+              </div>
+              <p className="text-gray-600 mb-6">March 2026 – Present | Brooklyn, NY</p>
+              <ul className="space-y-3 text-gray-700 leading-relaxed">
+                <li className="flex gap-3">
+                  <span className="text-black mt-1">•</span>
+                  <span>Streamline departmental operations by managing financial documentation and administrative tasks for the Finance Department.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-black mt-1">•</span>
+                  <span>Coordinate with college staff and faculty to ensure efficient office workflow, mirroring the organizational needs.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-black mt-1">•</span>
+                  <span>Maintain accurate records and assist with internal inquiries, demonstrating high-level professionalism and discretion in handling sensitive data.</span>
+                </li>
+              </ul>
             </div>
-            <p className="text-gray-600 mb-6">Core Tenure | Sargodha, Pakistan</p>
-            <ul className="space-y-3 text-gray-700 leading-relaxed">
-              <li className="flex gap-3">
-                <span className="text-black mt-1">•</span>
-                <span>Directed the full accounting cycle, including high-precision management of accounts payable, receivable, and complex bank reconciliations.</span>
-              </li>
-              <li className="flex gap-3">
-                <span className="text-black mt-1">•</span>
-                <span>Strategic preparation of monthly and quarterly financial statements to support executive decision-making.</span>
-              </li>
-              <li className="flex gap-3">
-                <span className="text-black mt-1">•</span>
-                <span>Identified and implemented cost-control opportunities that streamlined bookkeeping processes and enhanced overall operational efficiency.</span>
-              </li>
-              <li className="flex gap-3">
-                <span className="text-black mt-1">•</span>
-                <span>Ensured strict compliance with GAAP standards and local regulatory requirements for all financial reporting.</span>
-              </li>
-              <li className="flex gap-3">
-                <span className="text-black mt-1">•</span>
-                <span>Collaborated on cross-functional budgeting projects to optimize resource allocation and financial health.</span>
-              </li>
-            </ul>
+
+            {/* Previous Experience */}
+            <div className="bg-white p-8 rounded-xl shadow-md border-l-4 border-black">
+              <div className="flex justify-between items-start mb-4">
+                <h3 className="text-2xl font-bold">Accountant</h3>
+                <span className="text-lg font-bold">Hamdani Brothers</span>
+              </div>
+              <p className="text-gray-600 mb-6">Core Tenure | Sargodha, Pakistan</p>
+              <ul className="space-y-3 text-gray-700 leading-relaxed">
+                <li className="flex gap-3">
+                  <span className="text-black mt-1">•</span>
+                  <span>Directed the full accounting cycle, including high-precision management of accounts payable, receivable, and complex bank reconciliations.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-black mt-1">•</span>
+                  <span>Strategic preparation of monthly and quarterly financial statements to support executive decision-making.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-black mt-1">•</span>
+                  <span>Identified and implemented cost-control opportunities that streamlined bookkeeping processes and enhanced overall operational efficiency.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-black mt-1">•</span>
+                  <span>Ensured strict compliance with GAAP standards and local regulatory requirements for all financial reporting.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-black mt-1">•</span>
+                  <span>Collaborated on cross-functional budgeting projects to optimize resource allocation and financial health.</span>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
@@ -636,7 +662,7 @@ export default function App() {
             <a href="https://linkedin.com/in/amina-hamdani-192589380/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition-colors">
               linkedin.com/in/amina-hamdani-192589380
             </a>
-            <a href="/Resume For Portfolio.pdf" download className="hover:text-gray-300 transition-colors">
+            <a href="/amina-portfolio/Amina_Hamdani_Resume.pdf" download className="hover:text-gray-300 transition-colors">
               Download Resume (PDF)
             </a>
           </div>
