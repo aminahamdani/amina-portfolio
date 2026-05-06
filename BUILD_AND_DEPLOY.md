@@ -37,6 +37,8 @@ cd "c:\Users\Amina Rubab Hamdani\OneDrive\Documents\My Projects\amina-portfolio"
 Copy-Item -Path "Update portfolio webpage\dist\*" -Destination "." -Recurse -Force
 ```
 
+If you use `.\deploy-portfolio.ps1`, it also automatically syncs `404.html` asset links with the latest `index.html` so GitHub Pages deep links keep working after each build.
+
 ### Step 4: Commit and Push
 
 ```powershell

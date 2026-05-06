@@ -45,6 +45,7 @@
    - Install dependencies
    - Build your React app
    - Copy files to repository root
+   - Auto-sync `404.html` asset links with the latest `index.html` build output
    - Commit and push to GitHub
 
 ### Option B: Manual Commands

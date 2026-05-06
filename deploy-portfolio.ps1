@@ -69,6 +69,43 @@ Copy-Item -Path "$distPath\*" -Destination $PSScriptRoot -Recurse -Force
 Write-Host "✅ Files copied successfully" -ForegroundColor Green
 Write-Host ""
 
+# Regenerate 404.html from index.html to keep hashed assets in sync
+$indexPath = Join-Path $PSScriptRoot "index.html"
+$notFoundPath = Join-Path $PSScriptRoot "404.html"
+if (Test-Path $indexPath) {
+    Write-Host "🔄 Regenerating 404.html from latest index.html..." -ForegroundColor Yellow
+    $indexContent = Get-Content -Path $indexPath -Raw
+
+    $fallbackScript = @'
+    <script>
+      // Single Page Apps for GitHub Pages
+      // https://github.com/rafgraph/spa-github-pages
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) {
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+'@
+
+    if ($indexContent -notmatch 'spa-github-pages') {
+        $bodyCloseTag = '</body>'
+        $replacement = $fallbackScript + "`r`n  " + $bodyCloseTag
+        $notFoundContent = $indexContent -replace $bodyCloseTag, $replacement
+    } else {
+        $notFoundContent = $indexContent
+    }
+
+    Set-Content -Path $notFoundPath -Value $notFoundContent -NoNewline
+    Write-Host "✅ 404.html regenerated with current asset hashes" -ForegroundColor Green
+    Write-Host ""
+}
+
 # Show git status
 Write-Host "📊 Git status:" -ForegroundColor Cyan
 git status --short
