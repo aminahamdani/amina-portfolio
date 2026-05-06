@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { ImageWithFallback } from './components/figma/ImageWithFallback';
 import emailjs from '@emailjs/browser';
 import rentVerifyThumbnail from '../assets/a5f99000439d057fa9eb3fb1acd517994121ecf1.png';
